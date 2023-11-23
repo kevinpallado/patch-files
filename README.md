@@ -10,7 +10,7 @@
 
     On this moment I really know that there was a problem with postcss since removing it will solved the problem but I think its not an ideal answer.
 
-3. Lastly I found this [stackoverflow](https://stackoverflow.com/questions/70728985/vite-does-not-build-tailwind-css) and this [github](https://github.com/tailwindlabs/tailwindcss-intellisense/issues/399) problems that lead me to the answer adding css configuration and apply postcss for plugins in tailwind
+3. Lastly I found this [stackoverflow](https://stackoverflow.com/questions/70728985/vite-does-not-build-tailwind-css) and this [github](https://github.com/tailwindlabs/tailwindcss-intellisense/issues/399) problems that lead me to the answer adding css configuration and apply postcss for plugins in tailwind and apply to "vite.config.js"
 
 ```
 css: {
